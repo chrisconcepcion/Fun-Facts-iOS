@@ -17,6 +17,8 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [application setStatusBarStyle:UIStatusBarStyleLightContent];
+    NSLog(@"If you can see this, the app is running!");
     return YES;
 }
 

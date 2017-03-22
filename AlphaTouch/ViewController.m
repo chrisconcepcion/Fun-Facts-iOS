@@ -8,6 +8,10 @@
 
 #import "ViewController.h"
 
+#import "Factbook.h"
+
+#import "ColorWheel.h"
+
 @interface ViewController ()
 
 @end
@@ -17,6 +21,12 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    self.factBook = [[FactBook alloc] init];
+    
+    self.colorWheel = [[ColorWheel alloc] init];
+
+    self.funFactLabel.text = self.factBook.facts[0];
 }
 
 
@@ -25,5 +35,10 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)showFunFact {
+    UIColor *randomColor = [self.colorWheel randomColor];
+    self.view.backgroundColor= randomColor;
+    self.funFactLabel.text = [self.factBook randomFact];
+}
 
 @end

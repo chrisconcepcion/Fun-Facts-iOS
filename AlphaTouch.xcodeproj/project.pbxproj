@@ -15,6 +15,8 @@
 		7ECC78A71E80ABCB00D2AE52 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7ECC78A51E80ABCB00D2AE52 /* LaunchScreen.storyboard */; };
 		7ECC78B21E80ABCB00D2AE52 /* AlphaTouchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC78B11E80ABCB00D2AE52 /* AlphaTouchTests.m */; };
 		7ECC78BD1E80ABCB00D2AE52 /* AlphaTouchUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC78BC1E80ABCB00D2AE52 /* AlphaTouchUITests.m */; };
+		7ECC78CC1E81FE3600D2AE52 /* FactBook.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC78CB1E81FE3600D2AE52 /* FactBook.m */; };
+		7ECC78CF1E82EA0F00D2AE52 /* ColorWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7ECC78CE1E82EA0F00D2AE52 /* ColorWheel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		7ECC78B81E80ABCB00D2AE52 /* AlphaTouchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlphaTouchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7ECC78BC1E80ABCB00D2AE52 /* AlphaTouchUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlphaTouchUITests.m; sourceTree = "<group>"; };
 		7ECC78BE1E80ABCB00D2AE52 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7ECC78CA1E81FE3600D2AE52 /* FactBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactBook.h; sourceTree = "<group>"; };
+		7ECC78CB1E81FE3600D2AE52 /* FactBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactBook.m; sourceTree = "<group>"; };
+		7ECC78CD1E82EA0F00D2AE52 /* ColorWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorWheel.h; sourceTree = "<group>"; };
+		7ECC78CE1E82EA0F00D2AE52 /* ColorWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorWheel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +116,10 @@
 				7ECC78A51E80ABCB00D2AE52 /* LaunchScreen.storyboard */,
 				7ECC78A81E80ABCB00D2AE52 /* Info.plist */,
 				7ECC78971E80ABCB00D2AE52 /* Supporting Files */,
+				7ECC78CA1E81FE3600D2AE52 /* FactBook.h */,
+				7ECC78CB1E81FE3600D2AE52 /* FactBook.m */,
+				7ECC78CD1E82EA0F00D2AE52 /* ColorWheel.h */,
+				7ECC78CE1E82EA0F00D2AE52 /* ColorWheel.m */,
 			);
 			path = AlphaTouch;
 			sourceTree = "<group>";
@@ -275,7 +285,9 @@
 			files = (
 				7ECC789F1E80ABCB00D2AE52 /* ViewController.m in Sources */,
 				7ECC789C1E80ABCB00D2AE52 /* AppDelegate.m in Sources */,
+				7ECC78CC1E81FE3600D2AE52 /* FactBook.m in Sources */,
 				7ECC78991E80ABCB00D2AE52 /* main.m in Sources */,
+				7ECC78CF1E82EA0F00D2AE52 /* ColorWheel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
